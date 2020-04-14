@@ -5,16 +5,18 @@ url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
 .profilepic {
     max-width: 75%;
     height: auto;
     border-radius: 50%;
-    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: auto;
 }
 .home {
     margin: 0;
     text-align: center;
+    position: relative;
+    top: 5em;
 }
 
 
@@ -46,23 +48,28 @@ nav a {
     color: rgb(127, 240, 255);
 }
 
-nav a:hover;
+p {
+    position: relative;
+    top: 1em;
+}
+
+nav a:hover {
+    color: red;
+};
 nav a:focus {
     color: #DDD;
 }
 
-.container {
-    padding: 5em;
-}
-
 .col-left {
     float: left;
-    width: 50%;
+    width: 40%;
+    height: 50%;
 }
 
 .col-right {
     float: right;
-    width: 50%;
+    width: 60%;
+    height: 50%;
 }
 
 .home-info a{
@@ -72,6 +79,8 @@ nav a:focus {
     font-size: .8rem;
     padding: .5em;
     color: rgb(127, 240, 255);
+    position: relative;
+    top: 2em;
 }
 
 .home-info ul {
