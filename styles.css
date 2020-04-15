@@ -43,14 +43,9 @@ nav a {
     font-weight: 300;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: 0.9em;
     padding: .5em;
     color: rgb(127, 240, 255);
-}
-
-p {
-    position: relative;
-    top: 1em;
 }
 
 nav a:hover {
@@ -58,6 +53,14 @@ nav a:hover {
 };
 nav a:focus {
     color: #DDD;
+}
+
+/* content
+=================== */
+
+p {
+    position: relative;
+    top: 1em;
 }
 
 .col-left {
